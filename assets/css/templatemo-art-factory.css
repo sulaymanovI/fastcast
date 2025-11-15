@@ -1368,6 +1368,15 @@ footer .copyright {
   }
 }
 
+@media (max-width: 767px) {
+    .contact-items {
+        flex-direction: column;  /* элементы друг под другом */
+        gap: 15px;               /* уменьшаем отступ между ними */
+        align-items: center;     /* центрируем по горизонтали */
+    }
+}
+
+
 /* 
 ---------------------------------------------
 preloader
